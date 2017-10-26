@@ -1,0 +1,105 @@
+INFO	[2017-10-05 08:44:39,640]  Connect to server (mxs.mail.ru, 25) without encryption
+INFO	[2017-10-05 08:44:39,721]  Connected to the server
+INFO	[2017-10-05 08:44:39,758]  exectuing command b'EHLO Daniel'
+INFO	[2017-10-05 08:44:39,758]  250 mx22.mail.ru ready to serve
+250-STARTTLS
+250-SIZE 73400320
+250 8BITMIME
+
+INFO	[2017-10-05 08:44:39,798]  exectuing command b'MAIL FROM:<testmail_1989@mail.ru>'
+INFO	[2017-10-05 08:44:39,799]  250  OK
+
+INFO	[2017-10-05 08:44:39,835]  exectuing command b'RCPT TO:<testmail_1989@mail.ru>'
+INFO	[2017-10-05 08:44:39,836]  250  OK
+
+INFO	[2017-10-05 08:44:39,873]  exectuing command b'DATA'
+INFO	[2017-10-05 08:44:39,874]  354  Go ahead
+
+INFO	[2017-10-05 08:44:40,087]  exectuing command b'.'
+INFO	[2017-10-05 08:44:40,088]  550  5.7.1 This message was not accepted due to domain (mail.ru) owner DMARC policy (RFC 7489) https://help.mail.ru/mail-help/postmaster/dmarc
+
+ERROR	[2017-10-05 08:44:40,088]  Error in end DATA
+INFO	[2017-10-05 08:48:17,146]  Connect to server (aspmx.l.google.com, 25) without encryption
+INFO	[2017-10-05 08:48:17,443]  Connected to the server
+INFO	[2017-10-05 08:48:17,495]  exectuing command b'EHLO Daniel'
+INFO	[2017-10-05 08:48:17,495]  250 mx.google.com at your service, [213.191.6.128]
+250-SIZE 157286400
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+INFO	[2017-10-05 08:48:17,543]  exectuing command b'MAIL FROM:<testmail_1989@gmail.com>'
+INFO	[2017-10-05 08:48:17,543]  250  2.1.0 OK q68si6721552lfq.249 - gsmtp
+
+INFO	[2017-10-05 08:48:17,893]  exectuing command b'RCPT TO:<zhe.dan28@gmail.com>'
+INFO	[2017-10-05 08:48:17,893]  250  2.1.5 OK q68si6721552lfq.249 - gsmtp
+
+INFO	[2017-10-05 08:48:17,941]  exectuing command b'DATA'
+INFO	[2017-10-05 08:48:17,941]  354   Go ahead q68si6721552lfq.249 - gsmtp
+
+INFO	[2017-10-05 08:48:18,111]  exectuing command b'.'
+INFO	[2017-10-05 08:48:18,112]  250  2.0.0 OK 1507179191 q68si6721552lfq.249 - gsmtp
+
+INFO	[2017-10-05 08:48:18,160]  exectuing command b'QUIT'
+INFO	[2017-10-05 08:48:18,160]  221  2.0.0 closing connection q68si6721552lfq.249 - gsmtp
+
+INFO	[2017-10-05 08:48:18,160]  Message was send
+INFO	[2017-10-05 08:48:35,950]  Connect to server (aspmx.l.google.com, 25) without encryption
+INFO	[2017-10-05 08:48:36,058]  Connected to the server
+INFO	[2017-10-05 08:48:36,110]  exectuing command b'EHLO Daniel'
+INFO	[2017-10-05 08:48:36,110]  250 mx.google.com at your service, [213.191.6.128]
+250-SIZE 157286400
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+INFO	[2017-10-05 08:48:36,161]  exectuing command b'MAIL FROM:<testmail_1989@gmail.com>'
+INFO	[2017-10-05 08:48:36,161]  250  2.1.0 OK 1si8693133ljh.469 - gsmtp
+
+INFO	[2017-10-05 08:48:36,356]  exectuing command b'RCPT TO:<zhe.dan28@gmail.com>'
+INFO	[2017-10-05 08:48:36,356]  250  2.1.5 OK 1si8693133ljh.469 - gsmtp
+
+INFO	[2017-10-05 08:48:36,405]  exectuing command b'DATA'
+INFO	[2017-10-05 08:48:36,405]  354   Go ahead 1si8693133ljh.469 - gsmtp
+
+INFO	[2017-10-05 08:48:36,572]  exectuing command b'.'
+INFO	[2017-10-05 08:48:36,572]  250  2.0.0 OK 1507179210 1si8693133ljh.469 - gsmtp
+
+INFO	[2017-10-05 08:48:36,622]  exectuing command b'QUIT'
+INFO	[2017-10-05 08:48:36,622]  221  2.0.0 closing connection 1si8693133ljh.469 - gsmtp
+
+INFO	[2017-10-05 08:48:36,622]  Message was send
+INFO	[2017-10-05 08:48:45,961]  Connect to server (aspmx.l.google.com, 25) without encryption
+INFO	[2017-10-05 08:48:46,066]  Connected to the server
+INFO	[2017-10-05 08:48:46,117]  exectuing command b'EHLO Daniel'
+INFO	[2017-10-05 08:48:46,117]  250 mx.google.com at your service, [213.191.6.128]
+250-SIZE 157286400
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+INFO	[2017-10-05 08:48:46,164]  exectuing command b'MAIL FROM:<testmail_1989@gmail.com>'
+INFO	[2017-10-05 08:48:46,165]  250  2.1.0 OK t13si1471317ljd.290 - gsmtp
+
+INFO	[2017-10-05 08:48:46,363]  exectuing command b'RCPT TO:<zhe.dan28@gmail.com>'
+INFO	[2017-10-05 08:48:46,364]  250  2.1.5 OK t13si1471317ljd.290 - gsmtp
+
+INFO	[2017-10-05 08:48:46,412]  exectuing command b'DATA'
+INFO	[2017-10-05 08:48:46,413]  354   Go ahead t13si1471317ljd.290 - gsmtp
+
+INFO	[2017-10-05 08:48:46,578]  exectuing command b'.'
+INFO	[2017-10-05 08:48:46,578]  250  2.0.0 OK 1507179220 t13si1471317ljd.290 - gsmtp
+
+INFO	[2017-10-05 08:48:46,625]  exectuing command b'QUIT'
+INFO	[2017-10-05 08:48:46,626]  221  2.0.0 closing connection t13si1471317ljd.290 - gsmtp
+
+INFO	[2017-10-05 08:48:46,626]  Message was send
